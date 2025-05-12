@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+
+:root {
+  --font-bebas: 'Bebas Neue', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-pacifico: 'Pacifico', cursive;
+  }
+  
+  h1, h2, h3 {
+    font-family: var(--font-bebas);
+    letter-spacing: -0.03em; /* Tight spacing for bold fonts */
+  }
+  
+  body {
+    font-family: var(--font-inter);
+    font-weight: 300; /* Light for body */
+    background-color:#F5F5F5;
+    scroll-behavior: smooth;
+  }
+  
+  .button {
+    font-family: var(--font-inter);
+    font-weight: 700; /* Bold for buttons */
+  }
+
+  .active{
+    background-color: rgba(128, 128, 128, 0.305);
+    border-color: orange;
+  }
+
+
+  select,input,textarea{
+    border: 1px solid #c2c2c2;
+    outline-color: orange;
+    border-radius: 4px;
+
+  }
