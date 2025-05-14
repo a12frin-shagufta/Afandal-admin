@@ -5,7 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 import Add from './pages/Add';
 import List from './pages/List';
 import Orders from './pages/Orders';
-import Offer from './pages/offers';
+import Offer from './pages/Offers';
 import { useState, useEffect } from 'react';
 import Login from './components/Login';
 import { ToastContainer } from 'react-toastify';
